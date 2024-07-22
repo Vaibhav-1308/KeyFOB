@@ -1,0 +1,9 @@
+﻿Name,Quantity,Component
+"U1",1," Timer"
+"R1, R2",2,"10 kΩ Resistor"
+"R3",1,"100 kΩ Resistor"
+"C1",1,"1 uF Capacitor"
+"R4",1,"1 kΩ Resistor"
+"D1",1,"Red LED"
+"S1",1," Pushbutton"
+"BAT1",1," 9V Battery"
