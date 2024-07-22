@@ -355,7 +355,7 @@
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 2.95 -1 180)
+			(at 2.95 -0.5 180)
 			(layer "F.SilkS")
 			(uuid "87307134-ee41-4532-866f-3ccc7952d07a")
 			(effects
@@ -797,7 +797,7 @@
 		(descr "8-Lead Plastic Small Outline (SM) - 5.28 mm Body [SOIC] (http://ww1.microchip.com/downloads/en/PackagingSpec/00000049BQ.pdf)")
 		(tags "SOIC 1.27")
 		(property "Reference" "U1"
-			(at 6 -2.5 0)
+			(at -1 4 0)
 			(layer "F.SilkS")
 			(uuid "725ef8e0-76f5-4688-8f48-7bf7524e777c")
 			(effects
