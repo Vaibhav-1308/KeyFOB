@@ -1,4 +1,4 @@
-# CAD-Projects
- This Repository is for storing the KiCad Projects I have made earlier.
+# KeyFOB
+ This is the fun project made with Attiny85 Microcontroller.
  <br>
  Author - Vaibhav Nrupnarayan.
