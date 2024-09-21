@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "battery Holder CR2032 001")(type "KiCad")(uri "${KIPRJMOD}/battery Holder CR2032 001.kicad_sym")(options "")(descr ""))
+)

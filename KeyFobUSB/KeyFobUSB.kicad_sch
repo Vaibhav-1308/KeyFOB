@@ -4401,12 +4401,12 @@
 				)
 			)
 		)
-		(symbol "battery holder S8411-45R:S8411-45R"
+		(symbol "battery Holder CR2032 001:BAT-HLD-001"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 16.51 7.62 0)
+			(property "Reference" "BT"
+				(at 19.05 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4414,8 +4414,8 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "S8411-45R"
-				(at 16.51 5.08 0)
+			(property "Value" "BAT-HLD-001"
+				(at 19.05 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4423,18 +4423,8 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "S8411-45R_1"
-				(at 16.51 -94.92 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://cdn.harwin.com/pdfs/S8411R.pdf"
-				(at 16.51 -194.92 0)
+			(property "Footprint" "BATHLD001"
+				(at 19.05 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4443,7 +4433,17 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Coin Cell Battery Retainer, Horizontal SMT, for CR1220 Coin Cell Batteries"
+			(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FC-BAT-HLD-001-xx%7FE%7Fpdf%7FEnglish%7FENG_CD_C-BAT-HLD-001-xx_E.pdf%7FBAT-HLD-001"
+				(at 19.05 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Battery Holders, CR2032, 1 Position, Horizontal, Nickel, PCB Mount Alignment, Power, -40  257 F [-40  125 C]"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4452,8 +4452,8 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 16.51 -394.92 0)
+			(property "Height" "4.3"
+				(at 19.05 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4462,8 +4462,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "855-S8411-45R"
-				(at 16.51 -494.92 0)
+			(property "Mouser Part Number" "712-BAT-HLD-001"
+				(at 19.05 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4472,8 +4472,8 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S8411-45R?qs=Qom7kyPojXY6B0JhnWxDgQ%3D%3D"
-				(at 16.51 -594.92 0)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-001?qs=K5ta8V%252BWhta7hbVGfm4dqA%3D%3D"
+				(at 19.05 -594.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4482,8 +4482,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Harwin"
-				(at 16.51 -694.92 0)
+			(property "Manufacturer_Name" "TE Connectivity"
+				(at 19.05 -694.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4492,8 +4492,8 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "S8411-45R"
-				(at 16.51 -794.92 0)
+			(property "Manufacturer_Part_Number" "BAT-HLD-001"
+				(at 19.05 -794.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -4502,10 +4502,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "S8411-45R_1_1"
+			(symbol "BAT-HLD-001_1_1"
 				(rectangle
 					(start 5.08 2.54)
-					(end 15.24 -5.08)
+					(end 17.78 -7.62)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -4515,9 +4515,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -2.54 0)
+					(at 0 0 0)
 					(length 5.08)
-					(name "+"
+					(name "+_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4533,7 +4533,25 @@
 					)
 				)
 				(pin passive line
-					(at 0 0 0)
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "+_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
 					(length 5.08)
 					(name "-"
 						(effects
@@ -4542,7 +4560,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5052,6 +5070,12 @@
 		(uuid "a9035304-5666-4e4f-8ab1-aaecc26acf12")
 	)
 	(junction
+		(at 151.13 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b6150f8f-491c-4cf2-9e86-27f9aed08e1a")
+	)
+	(junction
 		(at 106.68 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5431,7 +5455,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 55.88) (xy 146.05 64.77)
+			(xy 146.05 54.61) (xy 146.05 64.77)
 		)
 		(stroke
 			(width 0)
@@ -5458,6 +5482,16 @@
 			(type default)
 		)
 		(uuid "26f786b1-cc6d-48e6-baa8-0dc5dfce219e")
+	)
+	(wire
+		(pts
+			(xy 151.13 62.23) (xy 151.13 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "298961ed-5dc7-47a7-99de-f144151ca13e")
 	)
 	(wire
 		(pts
@@ -5558,6 +5592,16 @@
 			(type default)
 		)
 		(uuid "34926049-ee0d-45cc-a24f-72763224ac9b")
+	)
+	(wire
+		(pts
+			(xy 157.48 59.69) (xy 160.02 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3533f7f0-4c2f-48e5-bd4f-6c1ef5c63aa2")
 	)
 	(wire
 		(pts
@@ -5741,7 +5785,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 58.42) (xy 152.4 58.42)
+			(xy 154.94 57.15) (xy 160.02 57.15)
 		)
 		(stroke
 			(width 0)
@@ -5921,7 +5965,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 58.42) (xy 152.4 60.96)
+			(xy 154.94 57.15) (xy 154.94 58.42)
 		)
 		(stroke
 			(width 0)
@@ -6008,6 +6052,16 @@
 			(type default)
 		)
 		(uuid "6721cfc4-11ed-4eee-88ce-f447862aeabb")
+	)
+	(wire
+		(pts
+			(xy 157.48 62.23) (xy 151.13 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "674c7068-e585-42c0-b47f-addd8ddf9efc")
 	)
 	(wire
 		(pts
@@ -6148,6 +6202,16 @@
 			(type default)
 		)
 		(uuid "79c8893d-c9ab-4a2f-9563-eefeba1a97c4")
+	)
+	(wire
+		(pts
+			(xy 151.13 54.61) (xy 160.02 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a594db2-b940-4b2a-9267-8ce6a84e0f9e")
 	)
 	(wire
 		(pts
@@ -6398,6 +6462,16 @@
 			(type default)
 		)
 		(uuid "99093393-ba62-4037-9cb6-5ba5b4f00576")
+	)
+	(wire
+		(pts
+			(xy 157.48 59.69) (xy 157.48 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9eabf174-963a-4db1-b5fa-cf46818606c7")
 	)
 	(wire
 		(pts
@@ -6661,7 +6735,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 55.88) (xy 146.05 55.88)
+			(xy 146.05 54.61) (xy 151.13 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7563,7 +7637,7 @@
 		(uuid "a4508ada-3924-4a72-b7eb-088a5edbb37a")
 	)
 	(label "VBAT"
-		(at 148.59 55.88 0)
+		(at 146.05 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8546,128 +8620,6 @@
 			(project "KeyFobUSB"
 				(path "/0fd3cdae-59c4-42b0-a096-27e29e27ac1f"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "battery holder S8411-45R:S8411-45R")
-		(at 153.67 58.42 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "22c7c5eb-bdc0-4679-aeb9-998e6b6fc38b")
-		(property "Reference" "J2"
-			(at 170.18 58.4201 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "S8411-45R"
-			(at 170.18 55.8801 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "22BatteryHoldercoincell_S8411-45R:S8411-45R_1"
-			(at 170.18 -36.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://cdn.harwin.com/pdfs/S8411R.pdf"
-			(at 170.18 -136.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Coin Cell Battery Retainer, Horizontal SMT, for CR1220 Coin Cell Batteries"
-			(at 153.67 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 170.18 -336.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "855-S8411-45R"
-			(at 170.18 -436.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Harwin/S8411-45R?qs=Qom7kyPojXY6B0JhnWxDgQ%3D%3D"
-			(at 170.18 -536.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Harwin"
-			(at 170.18 -636.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "S8411-45R"
-			(at 170.18 -736.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf2ecf68-1496-4f2b-a178-7a7cb75e1cd5")
-		)
-		(pin "2"
-			(uuid "45f11b2e-4ab7-4ecc-9abf-83b67509ef70")
-		)
-		(instances
-			(project ""
-				(path "/0fd3cdae-59c4-42b0-a096-27e29e27ac1f"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -10481,7 +10433,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 152.4 60.96 0)
+		(at 154.94 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10490,7 +10442,7 @@
 		(fields_autoplaced yes)
 		(uuid "890fcf19-5941-4c9e-a475-f2917b010cc1")
 		(property "Reference" "#PWR08"
-			(at 152.4 67.31 0)
+			(at 154.94 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10499,7 +10451,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 66.04 0)
+			(at 154.94 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10508,7 +10460,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 60.96 0)
+			(at 154.94 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10517,7 +10469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 60.96 0)
+			(at 154.94 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10478,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 152.4 60.96 0)
+			(at 154.94 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13725,6 +13677,131 @@
 			(project "KeyFobUSB"
 				(path "/0fd3cdae-59c4-42b0-a096-27e29e27ac1f"
 					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "battery Holder CR2032 001:BAT-HLD-001")
+		(at 160.02 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fd2d8e17-a2f3-4b11-82ad-4ce6e52af98c")
+		(property "Reference" "BT1"
+			(at 179.07 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAT-HLD-001"
+			(at 179.07 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "22BatteryHoldercoincell_S8411-45R:BATHLD001 CR2032"
+			(at 179.07 149.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FC-BAT-HLD-001-xx%7FE%7Fpdf%7FEnglish%7FENG_CD_C-BAT-HLD-001-xx_E.pdf%7FBAT-HLD-001"
+			(at 179.07 249.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Battery Holders, CR2032, 1 Position, Horizontal, Nickel, PCB Mount Alignment, Power, -40  257 F [-40  125 C]"
+			(at 160.02 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "4.3"
+			(at 179.07 449.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "712-BAT-HLD-001"
+			(at 179.07 549.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Linx-Technologies/BAT-HLD-001?qs=K5ta8V%252BWhta7hbVGfm4dqA%3D%3D"
+			(at 179.07 649.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TE Connectivity"
+			(at 179.07 749.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BAT-HLD-001"
+			(at 179.07 849.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "168ea814-8735-4992-9b7a-c1a375cc50de")
+		)
+		(pin "3"
+			(uuid "6cb013d5-058e-4697-8b53-498eee466267")
+		)
+		(pin "1"
+			(uuid "7f7047be-470e-4b61-8fe8-61ab6c679cba")
+		)
+		(instances
+			(project ""
+				(path "/0fd3cdae-59c4-42b0-a096-27e29e27ac1f"
+					(reference "BT1")
 					(unit 1)
 				)
 			)
