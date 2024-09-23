@@ -1,5 +1,5 @@
 # KeyFOB
- This is the fun project made with Attiny85 Microcontroller.
+ This is the fun project made with STM32WB55 a BLE Microcontroller.
  <br>
  Author - Vaibhav Nrupnarayan.
 ## PCB Board with STM32WB55CEU6
