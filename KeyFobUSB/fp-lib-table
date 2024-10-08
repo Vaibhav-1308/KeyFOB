@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "KeyFOB")(type "KiCad")(uri "C:/Users/vaibh/OneDrive/Desktop/Daily Work/KiCad Projects/Key Fob/KeyFobUSB")(options "")(descr ""))
   (lib (name "DLF162500LT-5028A1")(type "KiCad")(uri "${KIPRJMOD}/DLF162500LT-5028A1.pretty")(options "")(descr ""))
+  (lib (name "RF Ceramic Antenna QJ-13799-2-2019")(type "KiCad")(uri "${KIPRJMOD}/RF Ceramic Antenna QJ-13799-2-2019.pretty")(options "")(descr ""))
 )

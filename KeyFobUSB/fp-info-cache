@@ -1,18 +1,4 @@
-23695391444630054
-22BatteryHoldercoincell_S8411-45R
-BATHLD001 CR2032
-BAT-HLD-001-1
-Battery
-0
-3
-3
-22BatteryHoldercoincell_S8411-45R
-S8411-45R_1
-S8411-45R_1
-Connector
-0
-2
-2
+23691951088695147
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2393,13 +2379,6 @@ SW PUSH SMALL Tactile C&K
 0
 4
 2
-Buzzer CMT-1209H-390T
-APHF1608LSEEQBDZGKC
-APHF1608LSEEQBDZGKC
-LED
-0
-4
-4
 Buzzer_Beeper
 Buzzer_12x9.5RM7.6
 Generic Buzzer, D12mm height 9.5mm with RM7.6mm
@@ -85280,6 +85259,13 @@ Skyworks
 0
 7
 7
+RF Ceramic Antenna QJ-13799-2-2019
+RF Ceramic Antenna QJ-13799-2-2019
+
+
+0
+2
+2
 RF_Antenna
 AVX_M620720
 868Mhz, 915Mhz ISM antenna, 6 x 2 x 1.08mm, http://datasheets.avx.com/ethertronics/AVX-E_M620720.pdf
